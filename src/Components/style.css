@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(rgb(165, 221, 243),pink,white);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar{
+    background-color: navy;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar-text{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.page-header{
+    font-size: 40px;
+}
+
+.table{
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+thead{
+    border-bottom: 1px solid black;
+}
+td{
+    border-bottom: 1px solid black;
+}
